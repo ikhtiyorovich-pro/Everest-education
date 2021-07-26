@@ -1,0 +1,447 @@
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"),
+		url("../fonts/poppins-v15-latin-regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/poppins-v15-latin-600.woff2") format("woff2"),
+		url("../fonts/poppins-v15-latin-600.woff") format("woff");
+}
+
+body {
+	box-sizing: border-box;
+	margin-bottom: 100px;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.everest-section {
+	width: 100%;
+	max-width: 1550px;
+	height: 824px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.856);
+	background-repeat: no-repeat;
+}
+.everest-container {
+	width: 100%;
+	max-width: 1550px;
+	height: 750px;
+}
+.everest-item {
+	width: 1440px;
+	height: 85px;
+	margin: 0 auto;
+	padding-top: 20px;
+	display: flex;
+	list-style: none;
+	align-items: center;
+}
+
+.everest-logo-img {
+	width: 114px;
+	height: 85px;
+	cursor: pointer;
+}
+.everest-links-list {
+	margin-left: auto;
+}
+.everest-link {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	color: white;
+	padding-right: 20px;
+}
+.everest-link:hover {
+	text-decoration: underline;
+	transition: 0.3s all;
+	color: white;
+}
+.everest-heading-list {
+	width: 454px;
+	height: 217px;
+	margin-top: 100px;
+	margin-left: 200px;
+	list-style: none;
+}
+.everest-heading {
+	width: 454px;
+	height: 72px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	color: #ffffff;
+}
+.everest-paragraph {
+	width: 407px;
+	height: 84px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	margin-bottom: 50px;
+	color: #ffffff;
+}
+.everest-heading-link {
+	width: 80px;
+	height: 21px;
+	padding: 5px 17px;
+	text-decoration: none;
+	color: white;
+	background-color: #52aadb;
+	border-radius: 8px;
+}
+.everest-heading-link:hover {
+	color: #52aadb;
+	border: 2px solid #52aadb;
+	background-color: white;
+	transition: 0.5s all;
+}
+.everest-strelka-list {
+	width: 52px;
+	height: 70px;
+	list-style: none;
+	margin: 0 auto;
+	margin-top: 17%;
+}
+/* ========== first main ========== */
+.everest-main-container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.everest-main-heading-list {
+	width: 343px;
+	height: 72px;
+	list-style: none;
+	margin: 88px auto;
+}
+.everest-main-images {
+	margin-top: 38px;
+	margin-bottom: 40px;
+}
+.everest-main-heading {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	color: #000000;
+}
+.everest-main-all-item {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.everest-main-many-lists-left {
+	width: 516px;
+	height: 669px;
+	margin-bottom: 67px;
+	list-style: none;
+	text-align: center;
+	background: #f5f5f5;
+	box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #c5c5c5;
+	border-radius: 15px;
+}
+.everest-main-many-lists-left:hover {
+	cursor: pointer;
+	width: 516px;
+	height: 669px;
+	margin-bottom: 67px;
+	list-style: none;
+	text-align: center;
+	box-shadow: none;
+	background: #eaeaea;
+	border-radius: 15px;
+	transition: 0.5s all;
+}
+.everest-main-many-lists-right {
+	width: 516px;
+	height: 669px;
+	margin-left: 68px;
+	margin-bottom: 67px;
+	list-style: none;
+	text-align: center;
+	background: #f5f5f5;
+	box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #c5c5c5;
+	border-radius: 15px;
+}
+.everest-main-many-lists-right:hover {
+	cursor: pointer;
+	width: 516px;
+	height: 669px;
+	margin-left: 68px;
+	margin-bottom: 67px;
+	list-style: none;
+	text-align: center;
+	box-shadow: none;
+	background: #eaeaea;
+	border-radius: 15px;
+	transition: 0.5s all;
+}
+.everest-main-all-heading {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	color: #000000;
+}
+.everest-main-all-paragraph {
+	width: 392px;
+	height: 105px;
+	margin: 0 auto;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	margin-top: 26px;
+	text-align: center;
+	color: #000000;
+}
+/* ========== second main ========== */
+.everest-second-container {
+	width: 1440px;
+	margin: 0 auto;
+}
+.everest-second-heading-list {
+	width: 370px;
+	height: 72px;
+	list-style: none;
+	margin: 40px auto;
+}
+.everest-second-heading {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	color: #000000;
+}
+.everest-second-texts-item {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+}
+.everest-second-texts-lists {
+	cursor: pointer;
+	list-style: none;
+	text-align: center;
+}
+.everest-second-texts-lists + .everest-second-texts-lists {
+	margin-left: 50px;
+}
+.everest-second-texts-images:hover {
+	box-shadow: -10px -10px 20px #ffffff, 10px 10px 20px #c5c5c5;
+	border-radius: 50%;
+}
+.everest-second-texts-heading {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 36px;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.everest-second-texts-paragraph {
+	width: 247px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
+
+/* ========== third main ========== */
+.everest-third-main-container {
+	width: 1100px;
+	height: 580px;
+	margin: 100px auto;
+	filter: drop-shadow(10px 10px 20px #d0d0d0);
+	border-radius: 30px;
+	background-image: url(../images/third-background-img.svg);
+}
+.everest-third-main-list {
+	list-style: none;
+
+	margin-left: 10px;
+	padding-top: 32px;
+}
+
+.everest-third-main-heading:hover {
+	color: #65b5ef;
+	background-color: #ffffff;
+	border-radius: 30px 0 0 0;
+}
+.everest-third-main-heading-link {
+	width: 340px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	padding: 25px 30px 27px 28px;
+	border-radius: 30px 0 0 0;
+	text-decoration: none;
+	color: white;
+	background-color: #65b5ef;
+}
+.everest-third-main-heading-link:hover {
+	color: #65b5ef;
+	background-color: white;
+	transition: 0.4s all;
+}
+
+/* ========== fourth-main ========== */
+.everest-fourth-main-wrapper {
+	width: 1100px;
+	margin: 0 auto;
+}
+.everest-fourth-main-heading-list {
+	list-style: none;
+}
+.everest-fourth-main-heading {
+	width: 717px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	text-align: center;
+	color: #000000;
+}
+.everest-fourth-main-number-list {
+	width: 360px;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 42px;
+	background: #f1f1f1;
+	box-shadow: -6px -6px 10px #ffffff, 6px 6px 10px #cacaca;
+	border-radius: 15px;
+}
+.everest-fourth-main-number-list:hover {
+	background: #f1f1f1;
+	box-shadow: none;
+	transition: 0.5s all;
+}
+
+.everest-fourth-main-phone-numbers {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 72px;
+	margin-left: 5px;
+	text-align: center;
+	color: #ffb800;
+}
+.everest-fourth-main-number-link {
+	text-decoration: none;
+	color: #ffb800;
+}
+/* ========== footer ========== */
+.everest-footer-wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.everest-footer-item {
+	display: flex;
+	align-items: center;
+}
+.everest-footer-logo-list {
+	list-style: none;
+}
+.everest-footer-logo-paragraph {
+	width: 387px;
+	height: 105px;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
+.everest-footer-links-list {
+	list-style: none;
+	margin-left: 200px;
+}
+.footer-links {
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #000000;
+}
+.everest-footer-right-link {
+	list-style: none;
+	margin-left: auto;
+	margin-right: 200px;
+}
+.everest-footer-links-paragraph {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #000000;
+}
+.everest-footer-links-yellow-paragraph {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffb800;
+}
+
+.everest-footer-links-img {
+	margin-right: 10px;
+}
+.everest-footer-right-links {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #000000;
+}
+.everest-footer-right-yellow-links {
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	text-decoration: none;
+	color: #ffb800;
+}
+.everest-footer-right-images {
+	margin-right: 10px;
+}
